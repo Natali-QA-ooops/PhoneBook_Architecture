@@ -13,7 +13,7 @@ public class UserHelper extends  HelperBase{
         click(By.xpath("//a[@href='/login']"));
     }
 
-    public void fillFormLogin(String email, String password){
+    public void fillFormLoginRegistration(String email, String password){
         type(By.xpath("//input[1]"),email);
         type(By.xpath("//input[2]"),password);
     }

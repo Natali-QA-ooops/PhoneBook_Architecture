@@ -7,7 +7,7 @@ public class RegistrationTest extends TestBase {
     @Test
     public void registrationSuccess() {
         app.getUserHelper().openLoginRegistrationForm();
-        app.getUserHelper().fillFormLogin("mirtel123456@mail.com","Mm098765$");
+        app.getUserHelper().fillFormLoginRegistration("maya123456@mail.com","Ma098765$");
         app.getUserHelper().submitFormRegistration();
 
 
