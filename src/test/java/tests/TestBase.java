@@ -1,8 +1,6 @@
 package tests;
 
 import manager.ApplicationManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 

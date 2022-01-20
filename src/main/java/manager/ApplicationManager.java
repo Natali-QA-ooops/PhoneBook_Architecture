@@ -3,6 +3,8 @@ package manager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class ApplicationManager {
     WebDriver wd;
     UserHelper userHelper;
@@ -11,12 +13,13 @@ public class ApplicationManager {
         wd=new ChromeDriver();
         wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
         wd.manage().window().maximize();
+        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         userHelper=new UserHelper(wd);
     }
 
     public void stop() {
-        wd.quit();
+        //wd.quit();
     }
 
     public UserHelper getUserHelper() {
