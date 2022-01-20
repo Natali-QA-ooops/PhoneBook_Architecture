@@ -29,7 +29,7 @@ public class RegistrationTest extends TestBase {
         int index = (int) (System.currentTimeMillis() / 1000 % 3600);
         System.out.println(index);
 
-        User user = new User().withEmail("maya\"+index+\"@mail.com").withPassword("Ma098765$");
+        User user = new User().withEmail("maya"+index+"@mail.com").withPassword("Ma098765$");
 
 
         app.getUserHelper().openLoginRegistrationForm();
