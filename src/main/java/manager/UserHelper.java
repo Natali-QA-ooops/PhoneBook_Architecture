@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UserHelper extends HelperBase {
 
+
     public UserHelper(WebDriver wd) {
 
         super(wd);
@@ -61,5 +62,13 @@ public class UserHelper extends HelperBase {
         String txt = el.getText();
         return txt.equals("CONTACTS");
 
+    }
+
+    public boolean isSignOutPresent() {
+        return isElementPresent(By.xpath("//button[text()='Sign Out']"));
+    }
+
+    public void signOut() {
+        click(By.xpath("//button[text()='Sign Out']"));
     }
 }

@@ -32,5 +32,10 @@ public class HelperBase {
             e.printStackTrace();
         }
     }
+    public boolean isElementPresent(By locator){
+
+        return wd.findElements(locator).size()>0;
+    }
+
 
 }
