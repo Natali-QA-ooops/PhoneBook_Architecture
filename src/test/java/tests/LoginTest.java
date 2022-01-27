@@ -20,6 +20,7 @@ public class LoginTest extends TestBase {
     @Test
     public void loginSuccess() {
         app.getUserHelper().openLoginRegistrationForm();
+        app.getUserHelper().pause(3000);
         app.getUserHelper().fillFormLoginRegistration("Tomy123456@mail.com", "Qq123666$45");
         app.getUserHelper().submitFormLogin();
 
@@ -28,7 +29,6 @@ public class LoginTest extends TestBase {
 
     @Test
     public void loginSuccessModel() {
-        //
         User user = new User().withEmail("Tomy123456@mail.com").withPassword("Qq123666$45");
 
         app.getUserHelper().openLoginRegistrationForm();

@@ -25,6 +25,8 @@ public class HelperBase {
         wd.findElement(locator).click();
     }
 
+
+
     public void pause(int millis) {
         try {
             Thread.sleep(millis);
