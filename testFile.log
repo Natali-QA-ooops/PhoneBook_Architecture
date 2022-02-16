@@ -1,0 +1,22 @@
+3182 [Test worker] INFO  manager.ApplicationManager - All tests starts in 'Chrom' browser
+4440 [Test worker] INFO  tests.TestBase - Name of test ---> addNewContactSuccess
+10348 [Test worker] INFO  tests.TestBase - Contact was added for userUser{email='Tomy123456@mail.com', password='Qq123666$45'}
+11281 [Test worker] INFO  tests.TestBase - Contact(name=Jack, lastName=Sparrow, phone=972345242, email=jacky242@gmail.com, address=Tortuga, description=Friend)contact was added
+14362 [Test worker] INFO  tests.TestBase - Name of test ---> addNewContactSuccess
+14399 [Test worker] INFO  tests.TestBase - Contact(name=Jack, lastName=Sparrow, phone=972345245, email=jacky245@gmail.com, address=Tortuga, description=Friend)contact was added
+17120 [Test worker] INFO  tests.TestBase - Name of test ---> addNewContactSuccess
+17187 [Test worker] INFO  tests.TestBase - Contact(name=Jack, lastName=Sparrow, phone=972345248, email=jacky248@gmail.com, address=Tortuga, description=Friend)contact was added
+20023 [Test worker] INFO  tests.TestBase - Name of test ---> addNewContactSuccess
+20064 [Test worker] INFO  tests.TestBase - Contact(name=Jack, lastName=Sparrow, phone=972345251, email=jacky251@gmail.com, address=Tortuga, description=Friend)contact was added
+22643 [Test worker] INFO  tests.TestBase - Name of test ---> addNewContactSuccess
+22684 [Test worker] INFO  tests.TestBase - Contact(name=Jack, lastName=Sparrow, phone=972345254, email=jacky254@gmail.com, address=Tortuga, description=Friend)contact was added
+3607 [Test worker] INFO  manager.ApplicationManager - All tests starts in 'Chrom' browser
+4641 [Test worker] INFO  tests.TestBase - Name of test ---> loginSuccess
+9680 [Test worker] INFO  tests.TestBase - Test starts with email [Tomy123456@mail.com], password [Qq123666$45]
+14252 [Test worker] INFO  tests.TestBase - Name of test ---> loginSuccessModel
+14402 [Test worker] INFO  tests.TestBase - Test starts with email [Tomy123456@mail.com], pessword[Qq123666$45]
+10:07:30  INFO  manager.ApplicationManager - All tests starts in 'Chrom' browser
+10:07:31  INFO  tests.TestBase - Name of test ---> loginSuccess
+10:07:36  INFO  tests.TestBase - Test starts with email [Tomy123456@mail.com], password [Qq123666$45]
+10:07:40  INFO  tests.TestBase - Name of test ---> loginSuccessModel
+10:07:41  INFO  tests.TestBase - Test starts with email [Tomy123456@mail.com], pessword[Qq123666$45]

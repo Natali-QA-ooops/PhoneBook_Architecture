@@ -1,0 +1,15 @@
+09:57:21  INFO  manager.ApplicationManager - All tests starts in 'Chrom' browser
+09:57:21  INFO  tests.TestBase - Name of test ---> loginNegativeTestWrongPassword
+09:57:21  INFO  manager.MyListener - Start find element --->By.xpath: //button[text()='Sign Out']
+09:57:26  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']--->was found
+09:57:26  INFO  tests.TestBase - The user start negative login process with data : --->User{email='Tomy123456@mail.com', password='Qq'}
+09:57:26  INFO  manager.MyListener - Start find element --->By.xpath: //a[@href='/login']
+09:57:26  INFO  manager.MyListener - The element with locator --->By.xpath: //a[@href='/login']--->was found
+09:57:27  INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+09:57:27  INFO  manager.MyListener - The element with locator --->By.xpath: //input[1]--->was found
+09:57:27  INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+09:57:27  INFO  manager.MyListener - The element with locator --->By.xpath: //input[2]--->was found
+09:57:27  INFO  manager.MyListener - Start find element --->By.xpath: //button[text()=' Login']
+09:57:27  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Login']--->was found
+09:57:32  INFO  manager.MyListener - Start find element --->By.xpath: //button[text()='Sign Out']
+09:57:37  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']--->was found

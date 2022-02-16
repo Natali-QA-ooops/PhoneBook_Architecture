@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Tests">
+    <test name="Reg">
+<groups>
+    <run>
+        <include name="web"/>
+    </run>
+</groups>
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.RegistrationTest"/>
+            <class name="tests.AddNewContactTests"/>
+
+        </classes>
+    </test>
+</suite>

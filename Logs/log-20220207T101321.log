@@ -1,0 +1,5 @@
+10:13:23  INFO  manager.ApplicationManager - All tests starts in 'Chrom' browser
+10:13:25  INFO  tests.TestBase - Name of test ---> loginSuccess
+10:13:30  INFO  tests.TestBase - Test starts with email [Tomy123456@mail.com], password [Qq123666$45]
+10:13:34  INFO  tests.TestBase - Name of test ---> loginSuccessModel
+10:13:34  INFO  tests.TestBase - Test starts with email [Tomy123456@mail.com], pessword[Qq123666$45]

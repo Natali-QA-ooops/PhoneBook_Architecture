@@ -1,0 +1,49 @@
+17:43:15  INFO  manager.ApplicationManager - All tests starts in 'Chrom' browser
+17:43:16  INFO  tests.TestBase - Name of test ---> addNewContactSuccess
+17:43:16  INFO  manager.MyListener - Start find element --->By.xpath: //button[text()='Sign Out']
+17:43:21  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()='Sign Out']--->was found
+17:43:21  INFO  manager.MyListener - Start find element --->By.xpath: //a[@href='/login']
+17:43:21  INFO  manager.MyListener - The element with locator --->By.xpath: //a[@href='/login']--->was found
+17:43:21  INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+17:43:21  INFO  manager.MyListener - The element with locator --->By.xpath: //input[1]--->was found
+17:43:21  INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+17:43:21  INFO  manager.MyListener - The element with locator --->By.xpath: //input[2]--->was found
+17:43:21  INFO  manager.MyListener - Start find element --->By.xpath: //button[text()=' Login']
+17:43:21  INFO  manager.MyListener - The element with locator --->By.xpath: //button[text()=' Login']--->was found
+17:43:21  INFO  tests.TestBase - Contact was added for userUser{email='Tomy123456@mail.com', password='Qq123666$45'}
+17:43:21  INFO  manager.MyListener - Start find element --->By.cssSelector: .contact-item_card__2SOIM
+17:43:22  INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM--->was found
+17:43:22  INFO  manager.MyListener - Start find element --->By.cssSelector: .contact-item_card__2SOIM
+17:43:22  INFO  manager.MyListener - The element with locator --->By.cssSelector: .contact-item_card__2SOIM--->was found
+17:43:25  INFO  tests.TestBase - Contact(name=Jack, lastName=Sparrow, phone=9723452605, email=jacky2605@gmail.com, address=Tortuga, description=Friend)contact was added
+17:43:25  INFO  manager.MyListener - Start find element --->By.xpath: //a[text()='ADD']
+17:43:25  INFO  manager.MyListener - The element with locator --->By.xpath: //a[text()='ADD']--->was found
+17:43:25  INFO  manager.MyListener - Start find element --->By.cssSelector: [placeholder='Name']
+17:43:25  INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Name']--->was found
+17:43:25  INFO  manager.MyListener - Start find element --->By.cssSelector: [placeholder='Last Name']
+17:43:25  INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Last Name']--->was found
+17:43:26  INFO  manager.MyListener - Start find element --->By.cssSelector: [placeholder='Phone']
+17:43:26  INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Phone']--->was found
+17:43:26  INFO  manager.MyListener - Start find element --->By.cssSelector: [placeholder='email']
+17:43:26  INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='email']--->was found
+17:43:26  INFO  manager.MyListener - Start find element --->By.cssSelector: [placeholder='Address']
+17:43:26  INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='Address']--->was found
+17:43:26  INFO  manager.MyListener - Start find element --->By.cssSelector: [placeholder='description']
+17:43:26  INFO  manager.MyListener - The element with locator --->By.cssSelector: [placeholder='description']--->was found
+17:43:26  INFO  manager.MyListener - Start find element --->By.xpath: //button[contains(.,'Save')]
+17:43:26  INFO  manager.MyListener - The element with locator --->By.xpath: //button[contains(.,'Save')]--->was found
+17:43:31  INFO  manager.MyListener - We have a throwable ---> element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O62I6CB', ip: '10.100.102.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\Natali\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7067857c5637d907307c673c726fbb0d
+17:43:31  INFO  manager.MyListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O62I6CB', ip: '10.100.102.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\Natali\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65484}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7067857c5637d907307c673c726fbb0d
+17:43:31  INFO  manager.MyListener - This is your screen with error -->src/test/screenshorts/screen2611.png
