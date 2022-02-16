@@ -13,17 +13,14 @@ public class AddNewContactTests extends TestBase{
         if(!app.getUserHelper().isLogged()){
             app.getUserHelper().login(new User().withEmail("Tomy123456@mail.com").withPassword("Qq123666$45"));
         }
+        if (app.getContactHelper().countOfContacts()>20){
+            app.getContactHelper().removeAllContacts();
+        }
     }
 
 
     @Test(groups = {"web"})
     public void addNewContactSuccess(){
-//        if(count >5){
-//            remove all contact();
-//        }
-        if (app.getContactHelper().countOfContacts()>20){
-            app.getContactHelper().removeAllContacts();
-        }
 
         int countStart = app.getContactHelper().countOfContacts();
 
@@ -42,7 +39,6 @@ public class AddNewContactTests extends TestBase{
         app.getContactHelper().openContactForm();
         app.getContactHelper().fillContactForm(contact);
         app.getContactHelper().submitButton();
-
 
         int countEnd = app.getContactHelper().countOfContacts();
 
