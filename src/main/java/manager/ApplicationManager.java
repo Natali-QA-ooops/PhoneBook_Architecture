@@ -25,7 +25,7 @@ public class ApplicationManager {
 
     public void init() {
         //wd = new ChromeDriver();
-
+//new commit for jenkins
         if(browser.equals(BrowserType.CHROME)){
             wd = new EventFiringWebDriver(new ChromeDriver());
             logger.info("All tests starts in 'Chrom' browser");
