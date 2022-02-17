@@ -100,13 +100,13 @@ public class ContactHelper extends HelperBase {
 
             wd.findElement(By.cssSelector(".contact-item_card__2SOIM")).click();
             wd.findElement(By.xpath("//button[text()='Remove']")).click();
-            pause(500);
+            pause(1000);
         }
 
         int countAfter = countOfContacts();
         logger.info("After remove one contact the count is --->" + countAfter);
 
-        return countAfter - countBefore;
+        return countBefore - countAfter;
     }
 
     public boolean isContactsListIsEmpty() {

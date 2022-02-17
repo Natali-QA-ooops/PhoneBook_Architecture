@@ -26,7 +26,7 @@ public class RemoveContactTest extends TestBase {
     @Test
     public void removeOneContactCount() {
 
-        Assert.assertEquals(app.getContactHelper().removeOneContactCount(), -1);
+        Assert.assertEquals(app.getContactHelper().removeOneContactCount(), 1);
     }
 
     @Test
