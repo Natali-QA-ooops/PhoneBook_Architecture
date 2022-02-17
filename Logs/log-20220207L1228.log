@@ -1,4 +1,0 @@
-12:28:14  INFO  manager.ApplicationManager - All tests starts in 'Chrom' browser
-12:28:15  INFO  tests.TestBase - Name of test ---> registrationSuccess
-12:28:22  INFO  tests.TestBase - Name of test ---> registrationSuccessModel
-12:28:23  INFO  tests.TestBase - User register with dataUser{email='maya1702@mail.com', password='Ma098765$'}
